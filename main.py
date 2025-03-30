@@ -2,7 +2,6 @@ import streamlit as st
 import yaml
 import requests
 import time
-import feedparser
 import os
 from urllib.parse import urlparse, parse_qs
 
