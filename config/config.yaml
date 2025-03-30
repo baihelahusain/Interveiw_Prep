@@ -1,0 +1,27 @@
+# API Configuration
+apis:
+  google:
+    api_key: "AIzaSyDPruZxaB5OtXkoL3KIqMTSWhd_Elgd8ZA" 
+    cse_id: "9697083f9781e4f41"  # Add your Custom Search Engine ID here
+  openai:
+    api_key: "sk-T5WKIA"  # Add your OpenAI API key here
+  youtube:
+    api_key: "AIzaSyBCH-HesfdXZvvm52igCQQRA9YL2RSn4eo" # Add your YouTube API key here
+
+# Scraping Configuration
+scraping:
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+  timeout: 10
+  retry_attempts: 3
+  retry_delay: 2
+
+# Application Settings
+app:
+  title: "InterviewPrep Pro"
+  description: "Your complete company research tool for interview preparation"
+  debug: false
+  cache_ttl: 3600  # Cache time-to-live in seconds
+
+# Data Sources
+sources:
+  github_api_url: "https://api.github.com"
