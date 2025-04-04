@@ -2,5 +2,6 @@
 
 ---
 
-** Streamlit Project **
+## Streamlit Project:
+
 Web Scrapper for interview preparation
